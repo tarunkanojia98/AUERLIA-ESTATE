@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary SEO Meta Tags -->
+  <title>Aurelia Estates | Luxury Residences &amp; Private Property Advisory</title>
+  <meta name="description" content="Discover a curated portfolio of luxury villas, penthouses, and private estates. Personalised real estate advisory and private viewings by Aurelia Estates." />
+  <meta name="author" content="Tarun Kanojia" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://your-live-url.com/" />
+
+  <!-- OpenGraph / Social Sharing Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Aurelia Estates" />
+  <meta property="og:url" content="https://your-live-url.com/" />
+  <meta property="og:title" content="Aurelia Estates | Find a Place Beyond Ordinary" />
+  <meta property="og:description" content="Explore an exclusive collection of architectural villas, penthouses, and private estates curated for timeless living." />
+  <meta property="og:image" content="https://your-live-url.com/images/og-preview.jpg" />
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Aurelia Estates | Luxury Residences &amp; Private Advisory" />
+  <meta name="twitter:description" content="Curated luxury villas, penthouses, and private estates with personalised property advisory." />
+  <meta name="twitter:image" content="https://your-live-url.com/images/og-preview.jpg" />
+
+  <!-- Brand Monogram Favicon (Charcoal & Gold "A") -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='%23141312'/><text x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-family='Georgia, serif' font-size='56' fill='%23B8924A'>A</text></svg>" />
+
+  <!-- Structured Data (RealEstateAgent) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "RealEstateAgent",
+    "name": "Aurelia Estates",
+    "description": "Curated luxury villas, penthouses, and private estates with personalised real estate advisory.",
+    "url": "https://your-live-url.com/",
+    "email": "advisory@aureliaestates.com",
+    "telephone": "+44 20 7946 0192",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Mayfair, London",
+      "addressCountry": "GB"
+    }
+  }
+  </script>
+
+  <!-- Google Fonts: Playfair Display + DM Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="brand" aria-label="Home">
+        <span class="brand-name" id="nav-brand-name">AURELIA</span>
+		<span class="brand-sub">ESTATE &amp; PROPERTIES</span>
+      </a>
+
+      <nav class="nav-links" id="nav-links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#properties">Properties</a>
+        <a href="#story">Our Story</a>
+        <a href="#services">Our Expertise</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="nav-actions">
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle dark mode" title="Toggle theme">
+          <svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+        </button>
+        <button class="icon-btn mobile-menu-btn" id="mobile-menu-btn" aria-label="Open menu">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#properties">Properties</a>
+      <a href="#story">Story</a>
+	  <a href="#services">Our Expertise</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+  <div class="hero-top">
+    <div class="eyebrow-pill" id="hero-eyebrow">
+      <span id="hero-eyebrow-text">THE ART OF EXCEPTIONAL LIVING</span>
+    </div>
+
+    <h1 class="hero-title" id="hero-title">
+      Find a Place <span class="accent">Beyond Ordinary.</span>
+    </h1>
+
+    <p class="hero-subtitle" id="hero-subtitle">
+      Discover an exclusive collection of extraordinary residences, thoughtfully selected for those who appreciate timeless elegance.
+    </p>
+
+    <div class="hero-actions">
+      <a href="#properties" class="btn btn-primary" id="hero-primary-btn">
+        EXPLORE RESIDENCES
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+      </a>
+      <a href="#story" class="btn btn-ghost">
+        DISCOVER OUR STORY &rarr;
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-index">01 &mdash; EXCEPTIONAL LIVING</div>
+</div>
+		<div class="hero-visual">
+          <div class="hero-image-card">
+            <img id="hero-image" src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1000&q=80" alt="Modern workspace" />
+          </div>   
+        </div>
+      </div>            
+          </div>                
+    </section>
+
+    <!-- Trust / Value Strip -->
+    <section class="value-strip">
+      <div class="container strip-inner">
+        <span class="strip-label" id="strip-label">BUILT WITH CARE &amp; CRAFT</span>
+        <div class="strip-items" id="strip-items">
+          <span>QUALITY</span>
+          <span>CARE</span>
+          <span>EXPERIENCE</span>
+          <span>TRUST</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Selected Work / Portfolio Section -->
+<section class="section" id="properties">
+  <div class="container">
+    <div class="section-header section-header-left">
+      <div class="section-eyebrow">CURATED FOR THE EXCEPTIONAL</div>
+      <h2>Remarkable Homes. Timeless Living.</h2>
+      <p id="work-subtitle">
+        Explore a collection of distinctive residences, selected for their architecture, character and exceptional locations.
+      </p>
+    </div>
+
+    <div class="cards-grid" id="portfolio-grid"></div>
+
+    <div class="section-footer">
+      <a href="#contact" class="view-all-link">VIEW ALL RESIDENCES &rarr;</a>
+    </div>
+  </div>
+</section>
+
+    <!-- Story Section -->
+   <section class="story-section" id="story">
+  <!-- Top Editorial Banner -->
+  <div class="story-banner">
+    <div class="container story-banner-inner">
+      <div class="story-text">
+        <div class="section-eyebrow">THE AURELIA DIFFERENCE</div>
+        <h2 class="story-title">
+          A More Personal<br />
+          Approach to <span class="accent">Luxury.</span>
+        </h2>
+        <p class="story-desc">
+          At Aurelia Estates, we believe in more than just properties.
+          We believe in creating lasting connections with exceptional
+          homes and the people who cherish them.
+        </p>
+      </div>
+    </div>
+
+    <div class="story-bg-image">
+      <img id="about-image" src="images/about.jpg" alt="Aurelia Estates Interior" loading="lazy" />
+    </div>
+  </div>
+
+  <!-- Bottom 3-Column Pillars -->
+  <div class="container">
+    <div class="pillars-grid">
+      <div class="pillar-item">
+        <div class="pillar-icon">
+          <!-- Diamond Icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></svg>
+        </div>
+        <h3>Curated Exclusivity</h3>
+        <p>A carefully selected collection of distinguished residences.</p>
+      </div>
+
+      <div class="pillar-item">
+        <div class="pillar-icon">
+          <!-- Handshake Icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="m11 17 2 2a1 1 0 1 0 3-3"/><path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4"/><path d="m21 3 1 11h-2"/><path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3"/><path d="M3 4h8"/></svg>
+        </div>
+        <h3>Personalised Guidance</h3>
+        <p>Dedicated assistance throughout your property journey.</p>
+      </div>
+
+      <div class="pillar-item">
+        <div class="pillar-icon">
+          <!-- Shield Check Icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg>
+        </div>
+        <h3>Exceptional Standards</h3>
+        <p>Attention to detail from the first consultation to the final handover.</p>
+      </div>
+    </div>
+  </div>
+</section>
+	
+	 <!-- Services Section -->
+    <section class="expertise-section" id="services">
+  <!-- Top: 4-Column Expertise Grid -->
+  <div class="container">
+    <div class="expertise-header">
+      <div class="section-eyebrow-center">OUR EXPERTISE</div>
+      <h2 class="expertise-title">
+        Real Estate, <span class="accent">Redefined.</span>
+      </h2>
+      <p class="expertise-subtitle">
+        From luxury villas to exclusive estates, we offer a curated portfolio
+        of properties to suit every aspiration.
+      </p>
+    </div>
+
+    <div class="expertise-grid">
+      <div class="expertise-item">
+        <div class="pillar-icon">
+          <!-- Luxury Villas Icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V9l7-5 7 5v12"/><path d="M9 21v-6h6v6"/><path d="M10 10h4"/></svg>
+        </div>
+        <h3>Luxury Villas</h3>
+        <p>Distinctive homes with exceptional architecture.</p>
+      </div>
+
+      <div class="expertise-item">
+        <div class="pillar-icon">
+          <!-- Premium Apartments Icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="10" height="18"/><path d="M14 9h6v12h-6"/><path d="M8 7h2"/><path d="M8 11h2"/><path d="M8 15h2"/><path d="M17 13h1"/><path d="M17 17h1"/></svg>
+        </div>
+        <h3>Premium Apartments</h3>
+        <p>Refined urban living in sought-after locations.</p>
+      </div>
+
+      <div class="expertise-item">
+        <div class="pillar-icon">
+          <!-- Exclusive Estates Icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22v-9"/><path d="M12 13c-3.5 0-6-2.2-6-5a5 5 0 0 1 2.2-4.1A4.5 4.5 0 0 1 16 4a4.8 4.8 0 0 1 2 4c0 2.8-2.5 5-6 5Z"/><path d="M12 16l3-2"/></svg>
+        </div>
+        <h3>Exclusive Estates</h3>
+        <p>Spacious residences with privacy and character.</p>
+      </div>
+
+      <div class="expertise-item">
+        <div class="pillar-icon">
+          <!-- Property Investment Icon -->
+          <svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 20h18"/><path d="M6 20v-5"/><path d="M11 20v-8"/><path d="M16 20v-11"/><path d="M4 11l6-4 4 2 6-5"/><path d="M16 4h4v4"/></svg>
+        </div>
+        <h3>Property Investment</h3>
+        <p>Opportunities selected with long-term value in mind.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom: Full-Bleed Consultation Banner -->
+  <div class="cta-banner">
+    <img src="images/luxury_interior1.jpg" alt="Luxury infinity pool at sunset" class="cta-banner-bg" loading="lazy" />
+    <div class="container cta-banner-inner">
+      <div class="cta-content">
+        <div class="section-eyebrow">YOUR NEXT CHAPTER BEGINS HERE</div>
+        <h2 class="cta-title">
+          Some Places Just<br />
+          Feel Like <span class="accent">Home.</span>
+        </h2>
+        <p class="cta-desc">
+          Let us help you discover a residence that reflects your aspirations.
+          Connect with our team for a personalised property consultation.
+        </p>
+        <a href="#contact" class="btn-gold">BOOK A PRIVATE VIEWING &rarr;</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+   <section class="consultation-section" id="contact">
+  <div class="container">
+    <div class="consultation-grid">
+      
+      <!-- Left Column: Editorial Intro & Concierge Details -->
+      <div class="consultation-info">
+        <div class="section-eyebrow">PRIVATE CONSULTATION</div>
+        <h2 class="consultation-title">
+          Arrange a<br />
+          <span class="accent">Private Viewing.</span>
+        </h2>
+        <p class="consultation-desc">
+          Whether you are seeking a signature residence or a discreet investment
+          opportunity, our private client advisors are here to guide you every step of the way.
+        </p>
+
+        <div class="concierge-details">
+          <div class="concierge-item">
+            <span class="concierge-label">PRIVATE ADVISORY</span>
+            <a href="tel:+919876543210" id="contact-phone">+44 20 7946 0192</a>
+          </div>
+
+          <div class="concierge-item">
+            <span class="concierge-label">DIRECT ENQUIRIES</span>
+            <a href="mailto:advisory@aureliaestates.com" id="contact-email">advisory@aureliaestates.com</a>
+          </div>
+
+          <div class="concierge-item">
+            <span class="concierge-label">PRIVATE GALLERY</span>
+            <p id="contact-address">Mayfair, London &bull; By Appointment Only</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Architectural Inquiry Form -->
+      <div class="consultation-form-card">
+        <form id="contact-form" class="consultation-form">
+          <div class="form-group">
+            <label for="name">FULL NAME</label>
+            <input type="text" id="name" name="name" placeholder="Your full name" required />
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="email">EMAIL ADDRESS</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">PHONE NUMBER</label>
+              <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="residence">RESIDENCE OF INTEREST</label>
+              <select id="residence" name="residence">
+  <option value="General Consultation">General Consultation</option>
+  <option value="The Aurelia Villa">The Aurelia Villa</option>
+  <option value="The Grand Penthouse">The Grand Penthouse</option>
+  <option value="The Estate Residence">The Estate Residence</option>
+  <option value="Property Investment">Investment Advisory</option>
+</select>
+            </div>
+
+            <div class="form-group">
+              <label for="visit-date">PREFERRED DATE</label>
+              <input type="date" id="visit-date" name="visit-date" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="message">REQUIREMENTS OR NOTES</label>
+            <textarea id="message" name="message" rows="3" placeholder="Tell us about your preferred timeline or specific requirements..."></textarea>
+          </div>
+			<input type="checkbox" name="botcheck" style="Display: none;"/>
+          <button type="submit" class="btn-submit">REQUEST PRIVATE VIEWING &rarr;</button>
+          <p class="form-note">All enquiries are handled with complete discretion.</p>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      
+      <!-- Column 1: Brand Statement -->
+      <div class="footer-brand">
+        <a href="#home" class="footer-logo">
+          <span class="footer-logo-main">AURELIA.</span>
+          <span class="footer-logo-sub">ESTATES &amp; PROPERTIES</span>
+        </a>
+        <p class="footer-tagline">
+          Curating architectural residences and private estates for those who
+          value timeless design, discretion, and enduring craft.
+        </p>
+      </div>
+
+      <!-- Column 2: Navigation -->
+      <div class="footer-col">
+        <h4 class="footer-heading">NAVIGATION</h4>
+        <ul class="footer-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#properties">Featured Residences</a></li>
+          <li><a href="#story">The Aurelia Difference</a></li>
+          <li><a href="#services">Our Expertise</a></li>
+          <li><a href="#contact">Private Viewing</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 3: Portfolio -->
+      <div class="footer-col">
+        <h4 class="footer-heading">RESIDENCES</h4>
+        <ul class="footer-links">
+          <li><a href="#properties">The Aurelia Villa</a></li>
+          <li><a href="#properties">The Grand Penthouse</a></li>
+          <li><a href="#properties">The Estate Residence</a></li>
+          <li><a href="#services">Investment Advisory</a></li>
+        </ul>
+      </div>
+
+      <!-- Column 4: Private Advisory -->
+      <div class="footer-col">
+        <h4 class="footer-heading">PRIVATE ADVISORY</h4>
+        <ul class="footer-contact">
+          <li>Mayfair, London &bull; By Appointment</li>
+          <li><a href="tel:+442079460192">+44 20 7946 0192</a></li>
+          <li><a href="mailto:advisory@aureliaestates.com">advisory@aureliaestates.com</a></li>
+        </ul>
+        <div class="footer-socials">
+          <a href="#" aria-label="Instagram">INSTAGRAM</a>
+          <span class="social-dot">&bull;</span>
+          <a href="#" aria-label="LinkedIn">LINKEDIN</a>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Bottom Legal & Credit Bar -->
+    <div class="footer-bottom">
+      <p>&copy; <span id="footer-year">2026</span> Aurelia Estates. All rights reserved.</p>
+      <p class="footer-credit">Concept &amp; Development by Tarun Kanojia</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a id="whatsapp-btn" class="whatsapp-float" href="#" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M20.52 3.48A11.86 11.86 0 0 0 12.06 0C5.49 0 .15 5.34.15 11.91c0 2.1.55 4.15 1.59 5.95L0 24l6.33-1.66a11.86 11.86 0 0 0 5.73 1.46h.01c6.57 0 11.91-5.34 11.91-11.91 0-3.18-1.24-6.17-3.46-8.41zM12.07 21.79h-.01a9.87 9.87 0 0 1-5.03-1.38l-.36-.21-3.76.99 1-3.66-.24-.38a9.84 9.84 0 0 1-1.51-5.24c0-5.45 4.44-9.89 9.9-9.89 2.64 0 5.13 1.03 7 2.9a9.83 9.83 0 0 1 2.89 7c0 5.45-4.44 9.87-9.88 9.87zm5.42-7.4c-.3-.15-1.76-.87-2.03-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.64.07-.3-.15-1.26-.46-2.4-1.48-.89-.79-1.49-1.77-1.66-2.07-.17-.3-.02-.46.13-.61.13-.13.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.52.07-.79.37-.27.3-1.04 1.02-1.04 2.48s1.07 2.88 1.22 3.08c.15.2 2.1 3.2 5.08 4.49.71.31 1.26.49 1.69.63.71.23 1.36.2 1.87.12.57-.09 1.76-.72 2.01-1.41.25-.7.25-1.29.17-1.41-.07-.12-.27-.2-.57-.35z"/>
+    </svg>
+    <span>Chat with us</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
