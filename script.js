@@ -100,7 +100,7 @@ portfolio: [
   phone: "+44 20 7946 0192",
   email: "advisory@aureliaestates.com",
   address: "Mayfair, London ",
-  whatsappNumber: "919876543210", // Country code + number (no + or spaces)
+  whatsappNumber: "918194827185", // Country code + number (no + or spaces)
   whatsappMessage: "Hi! I visited your website and would like to inquire about your services.",
   googleMapEmbedUrl:
     "https://www.google.com/maps?q=Mohali,Punjab,India&output=embed",
